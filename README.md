@@ -1,6 +1,6 @@
-## 📌 React + JS重构
+## 📌 LINK App 无 Git 打包 APK 流程
 
-1✅、node22.19.0 npm 10.9.3
+1✅、检查node.js
 ```bash
 node -v
 npm -v
