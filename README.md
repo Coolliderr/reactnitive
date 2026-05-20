@@ -30,13 +30,26 @@ npm install react-native-get-random-values buffer process
 ```bash
 npx expo start -c
 ```
+6✅、安装 EAS CLI
+```bash
+npm install -g eas-cli
+```
+7✅、登录 Expo
+```bash
+eas login
+```
 
-6✅、初始化 EAS Build 配置
+8✅、初始化 EAS Build 配置
 ```bash
 eas build:configure
 ```
 
-7✅、配置eas.json
+9✅、检查项目
+```bash
+npx expo doctor
+```
+
+10✅、配置eas.json
 ```bash
 {
   "cli": {
@@ -58,13 +71,13 @@ eas build:configure
 }
 ```
 
-8✅、打包 Android APK
+11✅、打包 Android APK
 ```bash
 $env:EAS_NO_VCS=1
 eas build --platform android --profile preview
 ```
 
-9✅、下载 APK
+12✅、下载 APK
 ```bash
 https://expo.dev/accounts/wangyuane/projects/link/builds/ca1545ea-641b-4c68-a423-46fffe4f9931
 ```
